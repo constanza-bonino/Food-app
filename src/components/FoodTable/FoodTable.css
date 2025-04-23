@@ -1,0 +1,6 @@
+.food_table
+{
+width: 100%;
+background-color: rgb(51, 121, 98);
+display: flex;
+}
