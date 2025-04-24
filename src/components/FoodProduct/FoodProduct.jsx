@@ -1,9 +1,9 @@
-import React from 'react';
-
+import React from "react";
+import "./FoodProduct.css";
 function FoodProduct(props) {
 	return (
-		<div style={{width: "200px", height: "200px", border: "1px solid black"}}>
-			Productos
+		<div className="food_item">
+			<p>{props.name}</p>
 		</div>
 	);
 }

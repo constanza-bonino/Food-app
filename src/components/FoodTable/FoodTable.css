@@ -1,6 +1,8 @@
-.food_table
-{
-width: 100%;
-background-color: rgb(51, 121, 98);
-display: flex;
+.food_table {
+	width: 50%;
+	padding: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: flex-start;
 }

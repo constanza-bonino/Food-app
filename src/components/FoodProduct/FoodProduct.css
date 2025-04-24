@@ -1,0 +1,10 @@
+.food_item {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 1rem;
+	text-align: center;
+	box-sizing: border-box;
+}
+
