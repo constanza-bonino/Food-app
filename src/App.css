@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #94c6f6;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  width: 85vw;
+  height: 85vh;
+  background-color: rgb(102, 160, 247);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.encabezado {
+  color: #25028d;
+  font-size: 2rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-bottom: 20px;
+}
