@@ -8,8 +8,6 @@ export function Order({boughtProds}) {
         <ul>
             <OrderItem
             boughtProd={boughtProds[0]} />
-            <OrderItem
-            boughtProd={boughtProds[1]} />
         </ul>
     );
 }

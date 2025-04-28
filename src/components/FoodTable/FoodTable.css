@@ -1,9 +1,14 @@
 .food_table {
-	width: 60%;
-	padding: 1rem;
+	width: 75%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
 	justify-content: flex-start;
+	overflow-y: scroll;
+	margin-left: 20px;
 	/* background-color: blue; */
+}
+
+::-webkit-scrollbar {
+	display: none;
 }

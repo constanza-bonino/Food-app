@@ -6,9 +6,9 @@ import { Order } from "./../Order/Order.jsx"
 export function SideBar({ boughtProds }) {
     return (
         <div className='sideBar'>
-            <span style={{fontWeight: "bold"}}>Cuenta</span>
+            <span className='cuenta' style={{fontWeight: "bold", paddingLeft: '20px'}}>Cuenta</span>
             <Order boughtProds={boughtProds} />
-            <span style={{fontWeight: "bold"}}>Total: ???</span>
+            <span className='total' style={{fontWeight: "bold", paddingLeft: '20px'}}>Total: ???</span>
         </div>
     );
 }
