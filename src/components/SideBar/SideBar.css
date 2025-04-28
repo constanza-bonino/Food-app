@@ -8,10 +8,5 @@
     min-width: 250px;
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
-}
-
-.total {
-    position: fixed;
-    bottom: 50px;   
+    padding: 15px;
 }

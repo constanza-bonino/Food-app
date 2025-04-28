@@ -14,7 +14,6 @@
 
 .food_item[disabled] {
     opacity: 0.5;
-    pointer-events: none;
     box-shadow: none;
     background-color: #ccc;
 }
