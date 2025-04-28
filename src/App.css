@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: #94c6f6;
   font-family: sans-serif;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,6 +17,8 @@ body {
   box-shadow: 0 0 10px #ccc;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
 
 .encabezado {
