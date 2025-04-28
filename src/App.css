@@ -6,9 +6,9 @@
   text-align: center;
 }
 
-.food-app-table {
+.food-app-title {
     text-align: left;
-    margin-left: 2vw;
+    margin: 2vh 2vw 2vh 2vw;
 }
 
 .app-container {
