@@ -1,29 +1,27 @@
 body {
+  color: #273F4F;
   margin: 0;
   padding: 0;
-  background-color: #94c6f6;
-  font-family: sans-serif;
+  font-family: "Kanchenjunga", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #fe78434a;
 }
 
 .contenedor {
   width: 85vw;
   height: 85vh;
-  background-color: rgb(102, 160, 247);
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
-  padding: 20px;
+  background-color: transparent;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
 }
 
 .encabezado {
-  color: #25028d;
-  font-size: 2rem;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: normal;
   margin-bottom: 20px;
 }

@@ -1,12 +1,9 @@
 .sideBar {
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #273F4F;
     font-size: 20px;
-    background-color:antiquewhite;
+    background-color: white;
+    border: solid 2px #fe78438f;
     border-radius: 20px;
-    border: black;
-    border-style: solid;
-    border-width: 0.2cap;
     width: 25%;
     min-width: 250px;
     display: flex;
