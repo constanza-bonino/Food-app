@@ -9,7 +9,8 @@
 	margin: 1rem;
 	text-align: center;
 	box-sizing: border-box;
-	background-color: #eeeeee;
+	background-color: #EFEEEA;
+    border: solid 2px #FE7743;
 	border-radius: 20px;
 }
 
