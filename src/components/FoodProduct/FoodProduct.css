@@ -13,6 +13,14 @@
 	border-radius: 20px;
 }
 
+.food_item[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+    box-shadow: none;
+    background-color: #ccc;
+}
+
+
 .food_item:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	cursor: pointer;
