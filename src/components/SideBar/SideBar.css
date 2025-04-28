@@ -1,0 +1,35 @@
+.sidebar-container {
+	width: 35%;
+	height: 100vh;
+	right: 1vw;
+	position: absolute;
+	margin-top: 2rem;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: #eeeeee;
+}
+
+.sidebar-header {
+	font-size: 3em;
+	margin: 0;
+	font-weight: 500;
+}
+
+.sidebar-footer {
+	font-size: 1.3em;
+	margin-right: 3vw;
+	text-align: right;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+hr.rounded {
+	border-top: 6px solid #213547;
+	border-radius: 5px;
+	width: 90%;
+}
+
+hr.dashed {
+	width: 90%;
+	border-top: 3px dashed #213547;
+}

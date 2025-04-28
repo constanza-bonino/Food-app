@@ -5,3 +5,12 @@
   padding: 1rem;
   text-align: center;
 }
+
+.food-app-table {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.app-container {
+    display: flex;
+}
