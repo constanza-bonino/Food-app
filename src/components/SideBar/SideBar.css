@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    height: 90%;
+    width: 35%;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sideBar {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #EB9878;
+    border-radius: 20px;
+    border: black;
+    border-style: solid;
+    border-width: 0.2cap;
+    height: 96.5%;
+}

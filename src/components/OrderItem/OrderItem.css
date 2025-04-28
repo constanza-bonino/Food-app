@@ -1,0 +1,26 @@
+button {
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    margin: 0%;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border: none
+
+}
+
+button:hover {
+    border: none;
+    border-color: transparent;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+li {
+    font-size: medium;
+    list-style-type: none;
+}
