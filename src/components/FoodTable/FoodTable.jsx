@@ -76,12 +76,14 @@ const foods = [
 ];
 
 function FoodTable() {
-	
-
 	return (
 		<div className="food_table">
-			{foods.map((food) => (
-				<FoodProduct key={food.name} food={food}></FoodProduct>
+			{props.foods.map((food) => (
+				<FoodProduct
+					key={food.name}
+					food={food}
+					onClickFood={props.onClickFood}
+				></FoodProduct>
 			))}
 		</div>
 	);
