@@ -7,7 +7,7 @@ function FoodTable(props) {
 		<div className="food_table">
 			{props.foods.map((food) => (
 				<FoodProduct
-					key={food.name}
+					key={food.id}
 					food={food}
 					onClickFood={props.onClickFood}
 				></FoodProduct>

@@ -5,7 +5,7 @@ export function OrderItem({ food }) {
 	return (
 		<>
 			<li>
-				{food.name} x {food.quantity} ${food.price}
+				{food.name} x {food.quantity} = ${food.price}
 				<button>✖</button>
 			</li>
 		</>
