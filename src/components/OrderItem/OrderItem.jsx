@@ -1,10 +1,19 @@
-import React from 'react';
-import './OrderItem.css';
+import React from "react";
+import "./OrderItem.css";
 
-export function OrderItem({ boughtProd }) {
-    return (
-        <>
-            <li>{boughtProd.tipo} x {boughtProd.unidades}    ${boughtProd.precio}<button>✖</button></li>    
-        </>
-    );
+export function OrderItem({ onClickCross, item }) {
+	return (
+		<>
+			<li id={item.name}>
+				{item.name} x {item.quantity} ${item.price}
+				<button
+					onClick={() => {
+						onClickCross(item.id);
+					}}
+				>
+					✖
+				</button>
+			</li>
+		</>
+	);
 }
