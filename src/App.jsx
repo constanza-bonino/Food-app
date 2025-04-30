@@ -109,13 +109,23 @@ function App() {
 		setFoods(clonedFoods);
 	}
 
+	function onClickRemoveHandler(food_id) {
+		let clonedFoods = [...foods];
+		clonedFoods.forEach((food) => {
+			if (food.id === food_id) {
+				food.quantity = 0;
+			}
+		});
+		setFoods(clonedFoods);
+	}
+
 	return (
 		<>
 			{/* <button onClick={onFoodClickHandler}>button</button> */}
 			<h1 className="encabezado">Food App</h1>
 			<div className="contenedor">
 				<FoodTable onClickFood={onFoodClickHandler} foods={foods} />
-				<SideBar foods={foods} />
+				<SideBar onClickCross={onClickRemoveHandler} foods={foods} />
 			</div>
 		</>
 	);
