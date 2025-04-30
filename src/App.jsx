@@ -113,6 +113,7 @@ function App() {
 		let clonedFoods = [...foods];
 		clonedFoods.forEach((food) => {
 			if (food.id === food_id) {
+				food.stock = food.quantity;
 				food.quantity = 0;
 			}
 		});
