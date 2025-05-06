@@ -7,7 +7,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #fe78434a;
   user-select: none;
 }
 
@@ -25,4 +24,16 @@ body {
   font-weight: 800;
   font-style: normal;
   margin-bottom: 20px;
+}
+
+.light-mode {
+  height: 100vh;
+  background-color: #991414;
+  color: #333;
+}
+
+.dark-mode {
+  height: 100vh;
+  background-color: #c31f1f;
+  color: #e0e0e0;
 }

@@ -1,3 +1,4 @@
+import { ThemeProvider } from "./../context/ThemeContext";
 import { useState, useEffect } from "react";
 import "./App.css";
 import FoodTable from "./components/FoodTable/FoodTable.jsx";
@@ -42,7 +43,7 @@ function App() {
 		let clonedFoods = [...foods];
 		clonedFoods.forEach((food) => {
 			if (food.id === food_id) {
-				food.stock = food.quantity;
+				food.stock = food.stock + food.quantity;
 				food.quantity = 0;
 			}
 		});
@@ -50,14 +51,14 @@ function App() {
 	}
 
 	return (
-		<>
+		<ThemeProvider>
 			{/* <button onClick={onFoodClickHandler}>button</button> */}
 			<h1 className="encabezado">Food App</h1>
 			<div className="contenedor">
 				<FoodTable onClickFood={onFoodClickHandler} foods={foods} />
 				<SideBar onClickCross={onClickRemoveHandler} foods={foods} />
 			</div>
-		</>
+		</ThemeProvider>
 	);
 }
 export default App;
