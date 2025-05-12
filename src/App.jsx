@@ -52,11 +52,12 @@ function App() {
 	}
 
 	return (
-		<div className={darkMode ? "app dark_mode" : "app light_mode"}>
-			<button onChange={toggleTheme}>adwa</button>
-			{/* <button onClick={onFoodClickHandler}>button</button> */}
+		<div className="app">
 			<h1 className="encabezado">Food App</h1>
 			<div className="contenedor">
+				<button onClick={toggleTheme}>
+					{darkMode ? "Light Mode ☀️" : "Dark Mode 🌙"}
+				</button>
 				<FoodTable onClickFood={onFoodClickHandler} foods={foods} />
 				<SideBar onClickCross={onClickRemoveHandler} foods={foods} />
 			</div>
