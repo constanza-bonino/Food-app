@@ -6,10 +6,10 @@ export const ThemeProvider = ({ children }) => {
 	const [darkMode, setDarkMode] = useState(false);
 
 	const toggleTheme = () => {
-		console.log("Here");
+		console.log("Here:", darkMode);
+		document.body.classList.add(darkMode ? "light_mode" : "dark_mode");
+		document.body.classList.remove(darkMode ? "dark_mode" : "light_mode");
 		setDarkMode(!darkMode);
-		document.body.classList.add(darkMode ? "dark_mode" : "light_mode");
-		document.body.classList.remove(darkMode ? "light_mode" : "dark_mode");
 	};
 
 	return (
