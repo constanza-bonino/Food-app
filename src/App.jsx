@@ -53,11 +53,13 @@ function App() {
 
 	return (
 		<div className="app">
-			<h1 className="encabezado">Food App</h1>
-			<div className="contenedor">
-				<button onClick={toggleTheme}>
+			<div className="header">
+				<h1 className="encabezado">Food App</h1>
+				<button className="toggle_theme_button" onClick={toggleTheme}>
 					{darkMode ? "Light Mode ☀️" : "Dark Mode 🌙"}
 				</button>
+			</div>
+			<div className="contenedor">
 				<FoodTable onClickFood={onFoodClickHandler} foods={foods} />
 				<SideBar onClickCross={onClickRemoveHandler} foods={foods} />
 			</div>

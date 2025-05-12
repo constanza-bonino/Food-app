@@ -8,10 +8,8 @@ export const ThemeProvider = ({ children }) => {
 	const toggleTheme = () => {
 		console.log("Here");
 		setDarkMode(!darkMode);
-		document.body.classList.add(darkMode ? "dark_mode" : "light_mode");
-		document.body.classList.remove(darkMode ? "light_mode" : "dark_mode");
-		document.getElementsByClassName("app").classList.add(darkMode ? "dark_mode" : "light_mode");
-		document.getElementsByClassName("app").classList.remove(darkMode ? "light_mode" : "dark_mode");
+		document.body.classList.add(darkMode ? "light_mode" : "dark_mode");
+		document.body.classList.remove(darkMode ? "dark_mode" : "light_mode");
 	};
 
 	return (
