@@ -10,8 +10,6 @@ export const ThemeProvider = ({ children }) => {
 		setDarkMode(newMode);
 		document.body.classList.add(newMode ? "dark_mode" : "light_mode");
 		document.body.classList.remove(newMode ? "light_mode" : "dark_mode");
-		document.getElementsByClassName("app").classList.add(newMode ? "dark_mode" : "light_mode");
-		document.getElementsByClassName("app").classList.remove(newMode ? "light_mode" : "dark_mode");
 	};
 
 	return (

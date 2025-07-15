@@ -1,4 +1,4 @@
-button {
+li > button {
     border-color: transparent;
     background-color: transparent;
     margin: 0%;
@@ -9,7 +9,7 @@ button {
 
 }
 
-button:hover {
+li > button:hover {
     border: none;
     border-color: transparent;
     height: 20px;
