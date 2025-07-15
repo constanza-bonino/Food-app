@@ -16,8 +16,7 @@ function FoodProduct(props) {
 				<span>${props.food.price}</span>
 				<button onClick={() => {
 					props.onClickFood(props.food.id);
-				}}
-				style={{color: "#333"}}>Agregar</button>
+				}}>Agregar</button>
 				<Link to={"food/" + props.food.id}> Info </Link>
 				<span className="food_stock">{props.food.stock}</span>
 			</div>
